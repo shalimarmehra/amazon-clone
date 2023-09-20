@@ -20,6 +20,14 @@ function App() {
             }
           />
           <Route
+            path="/login"
+            element={
+              <>
+                <login_page />
+              </>
+            }
+          />
+          <Route
             path="/"
             element={
               <>
